@@ -5,14 +5,14 @@
 .header__tabs {
     color: black;
     font-family: 'PlayfairDisplay-Regular';
-    font-size: 20px;
+    font-size: 28px;
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 35px;
 }
 
 .div__tabs:hover {
-    color: black;
+    color: aquamarine;
     font-family: 'PlayfairDisplay-Regular';
     font-size: 20px;
     display: flex;
@@ -43,7 +43,7 @@
 }
 
 .div__collection {
-    font-family: 'PlayfairDisplay-Bold';
+    font-family: 'OpenSans-Regular';
     color: #07484A;
     font-size: 50px;
     padding-left: 130px;
