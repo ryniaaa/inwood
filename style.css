@@ -1,0 +1,94 @@
+
+
+.header__logo {
+    height: 60px;
+}
+
+.header__tabs {
+    color: #07484A;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.div__tabs:hover {
+    color: #07484A;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    color: #07484A;
+    text-decoration: underline;
+}
+
+.header__items {
+    display: flex;
+    align-items: baseline;
+}
+
+.body__inwood  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 150px 0;
+}
+
+.header__icons {
+    display: flex;
+    gap: 20px;
+}
+
+.main__exclusive {
+    padding-top: 295.47px;
+}
+
+.div__collection {
+    font-family: 'PlayfairDisplay-Bold';
+    color: #07484A;
+    font-size: 50px;
+    padding-left: 130px;
+}
+
+.div__explore {
+    font-family: 'OpenSans-Regular';
+    color: #07484A;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-left: 130px;
+}
+
+.div__shop {
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    color: #FDFBF8;
+    padding: 23.5px 54.5px 23.5px 54.5px ;
+    background-color: #70908B;
+    border-radius: 10px;
+    width: 230px;
+}
+
+.header__burger {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .header__burger {
+        display: block;
+    }
+
+    .header__tabs {
+        display: none;
+    }
+
+    .div__collection {
+        font-size: 48px;
+    }
+
+    .div__explore {
+        padding-top: 16px;
+        padding-bottom: 52px;
+    }
+}
